@@ -1,0 +1,23 @@
+{
+  "name": "ipl_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ipl": "node index.js",
+    "start": "http-server",
+    "ipl2": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
